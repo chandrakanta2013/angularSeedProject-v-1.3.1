@@ -1,0 +1,17 @@
+<div class="login-page ng-scope">
+	<div class="login-box">
+		<h3><span>Login</span></h3>
+		<form name="login" ng-submit="signin()">
+		  <div class="form-group">
+		    <label for="user" class="sr-only">User Name</label>
+		    <input type="text" class="form-control" id="user" placeholder="User Name" name="user">
+		  </div>
+		  <div class="form-group">
+		    <label for="password" class="sr-only">Password</label>
+		    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+		  </div>
+		  <input type="submit" class="btn btn-default" value="Login">
+		</form>
+		<div class="register"><a ui-sref="register">Click to register</a></div> 
+	</div>
+</div>

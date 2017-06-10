@@ -1,0 +1,1 @@
+App.controller("homeCtrl",["$scope","$rootScope","MetaInformation","$http",function(e,o,a,t){e.name="Home page",e.seo={seo_title:"Home page",seo_description:"Home page description",seo_keywords:"Home page Keywords"},setMetaData(e,o,a,e.seo),e.variable="Variable Name"}]);

@@ -1,0 +1,1 @@
+App.directive("ckDirective",["$scope",function(e){return{template:"<h3>ck</h3>",restrict:"A",link:function(e,c,t,n){angular.element(c).css({color:"red"})},scope:{},controller:function(e,c,t){}}}]);

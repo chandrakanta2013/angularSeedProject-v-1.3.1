@@ -1,0 +1,1 @@
+App.filter("ckFilter",function(){return function(n,t){}});

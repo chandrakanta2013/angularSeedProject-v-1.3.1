@@ -1,0 +1,1 @@
+App.directive("homeDirective",["$scope",function(e){return{link:function(e,n,c,i){angular.element(n).css({color:"red"})}}}]);

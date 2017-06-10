@@ -1,0 +1,124 @@
+/*=================================================
+CSS Styles for <Project Name>.
+
+version:   1.0
+====================================================*/
+/*Normalize css starts here*/
+/*@import "normalize";*/
+/*Normalize css ends here*/
+/* ======Typography=======*/
+/* Setting up the fonts */
+body { font: 14px/18px Arial, Helvetica, sans-serif; color: #f00; background: #fff; -webkit-font-smoothing: antialiased; }
+
+/* ======End Typography============*/
+/* ==============Headings===============*/
+h1 { color: blue; }
+
+/* =============End Headings============*/
+/* ========== Links ===================*/
+a { text-decoration: none; Color: #000; cursor: pointer !important; outline: 0; }
+
+a:hover { text-decoration: underline; }
+
+/* ============End Links============*/
+/* ================Branding===============*/
+p { padding: 0 0 10px 0; margin: 0; }
+
+#header .headerContainer { padding: 0px; text-align: right; text-transform: capitalize; background: #1F2F4B; }
+
+#header ul { padding: 30px; }
+
+#header li { display: inline; padding: 10px 20px; }
+
+#header li a { color: #fff; font-size: 15px; }
+
+#logo { display: inline-block; margin: 10px 0 0 0; padding: 0px; }
+
+/* ==========End Branding==============*/
+/* ==============Main Nav================*/
+#nav { float: left; background: #3D3F4E; min-height: 400px; }
+
+#nav ul { list-style: none; margin: 0; padding: 0px; }
+
+#nav li { padding: 10px 5px; border-bottom: 1px solid; }
+
+#nav li a { color: #fff; font-size: 15px; }
+
+/* ===========End Main Nav================*/
+/* ==============Sub Nav================*/
+#subNavigation li { float: left; }
+
+#subNavigation li a { display: block; }
+
+#subNavigation li:hover a, #subNavigation li.active a { text-decoration: none; }
+
+/* ================End Sub Nav=============*/
+/* ==============Breadcrumbs start==============*/
+.breadcrumbs a { display: inline-block; }
+
+.breadcrumbs a:hover { text-decoration: none; }
+
+/* ================Breadcrumbs ends===============*/
+/* ==============Main Content==============*/
+#container { clear: both; float: left; width: 100%; }
+
+.widecolumn { background: #ccc none repeat scroll 0 0; float: right; height: 500px; width: 75%; }
+
+.narrowcolumn { background: #7bb3d9 none repeat scroll 0 0; float: left; height: 500px; width: 25%; }
+
+/* ===============End Main Content===============*/
+/* ==============Secondary Content==========*/
+.itemblock { float: left; margin: 10px; }
+
+/* ==========End Secondary Content==============*/
+/* ================Footer================*/
+#footer .footerContainer { padding: 0px; text-align: right; text-transform: capitalize; background: #1F2F4B; }
+
+#footer .footer-link { text-align: center; list-style: none; color: #fff; width: 50%; margin: 0 auto; padding: 0; display: block; }
+
+#footer .footer-link li { float: left; padding: 20px; }
+
+#footer .footer-link li a { display: inline-block; color: #fff; font-size: 15px; }
+
+#footer .footer-link li a:hover { text-decoration: none; }
+
+#footer .copyright { float: left; width: 100%; text-align: center; color: #fff; }
+
+/* =======================End Footer==================*/
+/* =========================Forms==============*/
+/* Removing fieldset borders (remove if you want to keep the defaults defined in Normalization) */
+fieldset { border: none; margin: 0; padding: 0; }
+
+.contactform { width: 300px; overflow: hidden; }
+
+.fieldgroup { display: block; margin-bottom: 5px; border: 1px solid #999; background: #efefef; padding: 8px 10px; overflow: hidden; }
+
+.fieldgroup input, .fieldgroup textarea { border: none; background: none; padding: 0; width: 100%; }
+
+/* ======================End Forms===================*/
+/* =====================Tables=====================*/
+/* ===============End Tables========================*/
+/*==========Login css ==========*/
+.login-page { margin: 0; padding: 0; width: 80%; height: 100%; position: fixed; }
+
+.login-box { background: #fff; max-width: 350px; width: 100%; margin: 0 auto; position: relative; top: 30%; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); border-radius: 20px; padding: 0 0 40px; }
+
+.login-box h3 { margin: 0 0 25px; padding: 35px 0 0; text-align: center; color: #424242; text-transform: uppercase; font-weight: 100; }
+
+.login-box h3 span { display: block; padding-top: 10px; }
+
+.login-box form { padding: 0 30px; }
+
+.login-box .form-group { margin-bottom: 10px; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+
+.login-box .form-control { height: 50px; border-radius: 0px; box-shadow: none; }
+
+.btn-default { background: none; border: 2px solid #f58220 !important; color: #414141; font-size: 14px; margin: 0 auto; padding: 12px 15px; text-transform: uppercase; border-radius: 0; border: 0; width: 100%; text-shadow: none; font-weight: 500; }
+
+.login-box h3 { margin: 0 0 25px; padding: 35px 0 0; text-align: center; color: #424242; text-transform: uppercase; font-weight: 100; }
+
+.register { float: left; width: 100%; text-align: center; margin-top: 10px; }
+
+/*==========Login css end==========*/

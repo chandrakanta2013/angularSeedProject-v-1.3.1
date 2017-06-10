@@ -1,0 +1,1 @@
+var app=angular.module("commonDirectives",[]);app.directive("pageTitle",["$rootScope","$timeout",function(t,e){return{link:function(a,n){var i=function(t,a,i,o,r){var c="Project Name";a.data.pageTitle&&(c=a.data.pageTitle),e(function(){n.text(c)})};t.$on("$stateChangeStart",i)}}}]);

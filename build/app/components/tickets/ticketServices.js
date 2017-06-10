@@ -1,0 +1,1 @@
+App.controller("dayclubCtrl",["getNightclubData2","getNightclubData1","getNightclubData","$scope","resourceService","MetaInformation","$http","$rootScope",function(t,e,c,o,a,r,l,g){}]);

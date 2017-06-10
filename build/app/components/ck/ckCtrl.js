@@ -1,0 +1,1 @@
+App.controller("ckCtrl",["$scope","$http","$rootScope",function(o,e,t){o.name="ck",o.seo={seo_title:"ck",seo_description:"ck description",seo_keywords:"ck Keywords"},setMetaData(o,t,MetaInformation,o.seo)}]);

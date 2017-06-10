@@ -1,0 +1,27 @@
+/* Extra small devices (portrait phones, less than 33.9em = 541px) */
+
+@media (max-width: 33.9em) { }
+
+/* Small devices (landscape phones, less than 47.9em = 767px, 48em = 768px, 61.9em = 991px) */
+
+@media (max-width: 47.9em) { }
+@media (min-width: 48em) and (max-width: 61.9em) { }
+
+/* Medium devices (tablets, less than 61.9em = 991px, 62em = 992px, 74.9em = 1199px ) */
+
+@media (max-width: 61.9em) { }
+@media (min-width: 62em) and (max-width: 74.9em) { }
+
+/* Large devices (desktops, less than 74.9em = 1199px) */
+
+@media (max-width: 74.9em) { }
+
+/* Large devices (desktops, less than 75em = 1200px) */
+
+@media (min-width: 75em) { }
+/*If needed you can add lower break point here for complecated layout*/
+
+/*For ratina display*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 4/2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+
+}

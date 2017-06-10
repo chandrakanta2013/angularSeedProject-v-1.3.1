@@ -1,0 +1,1 @@
+App.controller("loginCtrl",["$scope","authService","$cookies","$cookieStore","$state","$stateParams",function(o,e,n,t,c,l){console.log(c.current.name),o.login=function(){console.log(234324),e.setAuthToken(),c.go("main.home")}}]);

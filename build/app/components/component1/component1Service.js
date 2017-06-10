@@ -1,0 +1,1 @@
+App.service("name",["$scope",function(e){return 1}]);

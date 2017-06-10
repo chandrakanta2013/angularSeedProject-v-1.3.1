@@ -1,0 +1,1 @@
+App.controller("component2Ctrl",["user","user1","user2","$scope","$rootScope","MetaInformation","$http",function(e,o,a,t,r,s,n){t.name="Components two",t.dataArr=e.data.data,console.log(t.dataArr),t.seo={seo_title:"Home page",seo_description:"Home page description",seo_keywords:"Home page Keywords"},setMetaData(t,r,s,t.seo),t.variable="Variable Name"}]);

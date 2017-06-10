@@ -1,0 +1,1 @@
+var app=angular.module("MainController",["ngCookies","defaultServices"]);app.controller("MainController",["$scope","$rootScope","$cookies","$cookieStore","$state","authService","resourceService","$http",function(o,e,t,n,r,i,c,a){o.signout=function(){i.clearAuthentication(),r.go("login")},a({method:"GET",url:""}).then(function(o){},function(o){})}]);
