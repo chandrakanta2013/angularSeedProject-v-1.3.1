@@ -1,5 +1,5 @@
 App.controller('ckCtrl', ['$scope','$http','$rootScope', function($scope,$http,$rootScope) {
-    $scope.name = 'ck';
+    $scope.name = 'Chandrakanta';
     $scope.seo = {
         "seo_title": "ck",
         "seo_description": "ck description",
